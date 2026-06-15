@@ -848,12 +848,7 @@ section h2 {
   padding-right: 0 !important;
   text-align: center !important;
 }
-  
-.hero-actions a {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+
   .hero-strip {
     width: 100vw;
     grid-template-columns: repeat(2, 1fr);
