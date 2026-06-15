@@ -793,11 +793,11 @@ section h2 {
 
   .hero {
     width: 100vw;
-    min-height: 760px;
+    min-height: auto;
   }
 
   .hero-media img {
-    object-position: 65% center;
+    object-position: center center;
   }
 
   .hero-shade {
@@ -810,7 +810,7 @@ section h2 {
     width: calc(100vw - 32px);
     max-width: calc(100vw - 32px);
     margin: 0 16px 56px !important;
-    padding-top: 128px;
+    padding-top: 70px;
   }
 
   .eyebrow {
