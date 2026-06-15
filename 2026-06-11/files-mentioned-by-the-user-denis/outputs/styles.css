@@ -806,12 +806,14 @@ section h2 {
       linear-gradient(0deg, rgba(8, 21, 36, 0.9), rgba(8, 21, 36, 0.08) 62%);
   }
 
- .hero-content {
-  width: auto;
-  max-width: none;
-  margin: 0 16px 56px 16px !important;
-  padding-top: 70px;
-  }
+.hero-content {
+    width: auto;
+    max-width: none;
+    margin: 0 auto 56px auto !important;
+    padding-top: 70px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
   .eyebrow {
     max-width: 100%;
