@@ -249,7 +249,7 @@ section h2 {
 }
 
 section {
-  padding: clamp(66px, 8vw, 112px) clamp(18px, 5vw, 72px);
+  padding: clamp(40px, 5vw, 70px) clamp(18px, 5vw, 72px);
 }
 
 .intro-section,
@@ -284,7 +284,7 @@ section h2 {
 
 .section-heading {
   max-width: 880px;
-  margin-bottom: 38px;
+  margin-bottom: 20px;
 }
 
 .section-heading.centered {
