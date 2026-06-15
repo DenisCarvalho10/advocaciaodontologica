@@ -830,9 +830,7 @@ section h2 {
     font-size: 0.98rem;
     overflow-wrap: anywhere;
   }
-.hero-actions {
-    width: 100%;
-  }
+
 .hero-actions {
   width: 100%;
   flex-direction: column;
@@ -844,10 +842,11 @@ section h2 {
   max-width: 100%;
   box-sizing: border-box;
 }
-.hero-actions .button {
-    width: 100%;
-    box-sizing: border-box;
-  }
+.hero-actions a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
   .hero-strip {
     width: 100vw;
     grid-template-columns: repeat(2, 1fr);
