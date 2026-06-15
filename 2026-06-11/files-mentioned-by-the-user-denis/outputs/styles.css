@@ -841,7 +841,14 @@ section h2 {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center !important;
 }
+  
 .hero-actions a {
   display: flex;
   justify-content: center;
