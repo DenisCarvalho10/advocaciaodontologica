@@ -809,7 +809,7 @@ section h2 {
   .hero-content {
     width: calc(100vw - 32px);
     max-width: calc(100vw - 32px);
-    margin: 0 auto 56px !important;
+    margin: 0 16px 56px !important;
     padding-top: 128px;
   }
 
