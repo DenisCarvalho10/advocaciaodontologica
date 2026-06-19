@@ -528,6 +528,13 @@ ul { margin: 0; padding: 0; list-style: none; }
   .posts { grid-template-columns: 1fr; }
   .footer .grid { grid-template-columns: 1fr; gap: 1.8rem; }
   .fab .fab-label { display: none; }
+  /* botões flutuantes: círculos uniformes e alinhados no celular */
+  .fab-stack { right: 14px; bottom: 16px; gap: .6rem; align-items: center; }
+  .fab { width: 48px; height: 48px; padding: 0; justify-content: center; }
+  .fab svg { width: 23px; height: 23px; }
+  .fab-totop { width: 48px; height: 48px; }
+  .fab-whats::after { animation: none; }     /* sem halo que vaza na borda */
+  .leadin__tab { display: none; }            /* aba do e-book oculta no celular (acessível pelo hero e pela seção E-book) */
   .leadin { width: 300px; }
   .hero__actions .btn { width: 100%; justify-content: center; }
 }
