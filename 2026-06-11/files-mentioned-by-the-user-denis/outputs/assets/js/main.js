@@ -71,6 +71,7 @@
     navToggle.addEventListener("click", function () {
       var open = navLinks.classList.toggle("open");
       navToggle.classList.toggle("open", open);
+      document.body.classList.toggle("nav-open", open);
       navToggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
       document.body.style.overflow = open ? "hidden" : "";
     });
@@ -78,6 +79,7 @@
       a.addEventListener("click", function () {
         navLinks.classList.remove("open");
         navToggle.classList.remove("open");
+        document.body.classList.remove("nav-open");
         document.body.style.overflow = "";
       });
     });
@@ -132,6 +134,7 @@
   var leadShown = false;
   function maybeAutoLead() {
     if (leadShown || !leadin) return;
+    if (window.innerWidth < 768) return; // no celular não abre sozinho (só pela aba/botão "E-book")
     try { if (sessionStorage.getItem(LEAD_KEY) === "1") return; } catch (e) {}
     leadShown = true;
     openLead();
