@@ -104,7 +104,7 @@ O caminho recomendado (mesmo dos outros sites) é **GitHub + Vercel**, com o dom
 - [ ] Inserir o ID do **Google Analytics 4** (espaço reservado no topo do `index.html`).
 - [ ] Inserir o **Meta Pixel** (Facebook/Instagram), se for anunciar.
 - [ ] Confirmar/atualizar o e-mail que recebe os leads (Web3Forms).
-- [ ] Conferir o endereço usado no rodapé e no Schema.org (Mineiros-GO).
+- [ ] O site é apresentado como atendimento 100% online para todo o Brasil (sem cidade específica). Se quiser exibir um endereço, é só pedir.
 
 ---
 
