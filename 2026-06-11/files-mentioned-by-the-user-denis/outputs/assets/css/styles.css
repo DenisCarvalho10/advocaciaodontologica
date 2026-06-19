@@ -538,6 +538,10 @@ ul { margin: 0; padding: 0; list-style: none; }
   .leadin__tab { display: none; }            /* aba do e-book oculta no celular (acessível pelo hero e pela seção E-book) */
   .leadin { width: 300px; }
   .hero__actions .btn { width: 100%; justify-content: center; }
+  /* botões de ação não podem ultrapassar a largura da tela: permitem quebra e cabem */
+  .btn { white-space: normal; max-width: 100%; text-align: center; }
+  .btn-lg, .btn-xl { padding: .9em 1.4em; font-size: 1rem; }
+  .section__cta .btn, .cta-final .btn, .cta-band .btn, .article__cta .btn { width: 100%; justify-content: center; }
 }
 
 /* Esconde aba do e-book e botões flutuantes enquanto o menu mobile está aberto */
