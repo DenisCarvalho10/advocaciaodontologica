@@ -457,7 +457,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .fab-urgent { background: linear-gradient(135deg, #e0533d, #b8311c); }
 .fab-urgent svg { stroke: #fff; fill: none; }
 .fab-totop {
-  width: 46px; height: 46px; justify-content: center; padding: 0; background: var(--navy);
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 46px; height: 46px; padding: 0; border-radius: 50%; background: var(--navy);
   opacity: 0; visibility: hidden; transition: opacity .3s, transform .25s, visibility .3s;
 }
 .fab-totop svg { stroke: #fff; fill: none; }
