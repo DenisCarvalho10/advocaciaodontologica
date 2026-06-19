@@ -1,374 +1,489 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Advocacia em Direito Odontológico para clínicas, cirurgiões-dentistas e profissionais da área: contratos, ética, LGPD, vigilância sanitária e defesa profissional.">
-  <title>Direito Odontológico | Denis Carvalho Advocacia</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===================== SEO ===================== -->
+  <title>Advogado para Dentistas | Advocacia Odontológica — Denis Carvalho</title>
+  <meta name="description" content="Assessoria jurídica especializada para cirurgiões-dentistas e clínicas odontológicas: termos de consentimento (TCLE), contratos, LGPD, defesa em processos e representações no CRO. Atendimento online para todo o Brasil.">
+  <meta name="keywords" content="advogado para dentista, advocacia odontológica, direito odontológico, termo de consentimento odontologia, defesa CRO, LGPD clínica odontológica, contrato odontológico, erro odontológico">
+  <meta name="author" content="Denis Carvalho dos Santos Vieira — OAB/GO 53.904">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.advocaciaodontologica.com.br/">
+
+  <!-- ===================== Open Graph ===================== -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Advocacia Odontológica — Advogado para Dentistas | Denis Carvalho">
+  <meta property="og:description" content="Segurança jurídica para a sua prática odontológica: termos de consentimento, contratos, LGPD e defesa profissional. Mais de 20 anos de experiência no setor da saúde.">
+  <meta property="og:url" content="https://www.advocaciaodontologica.com.br/">
+  <meta property="og:image" content="https://www.advocaciaodontologica.com.br/assets/img/og-image.jpg">
+  <meta property="og:site_name" content="Advocacia Odontológica — Denis Carvalho">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ===================== Favicon ===================== -->
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+
+  <!-- ===================== Fontes ===================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- ===================== Schema.org ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Advocacia Odontológica — Denis Carvalho",
+    "description": "Assessoria jurídica especializada para cirurgiões-dentistas, clínicas e franquias odontológicas: termos de consentimento, contratos, LGPD, publicidade odontológica e defesa profissional.",
+    "url": "https://www.advocaciaodontologica.com.br/",
+    "telephone": "+55-62-99258-6422",
+    "email": "contato@deniscarvalhoadvocacia.com.br",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Terceira Avenida, Qd. 30, Lt. 03, Centro",
+      "addressLocality": "Mineiros",
+      "addressRegion": "GO",
+      "postalCode": "75830-084",
+      "addressCountry": "BR"
+    },
+    "areaServed": "BR",
+    "founder": {
+      "@type": "Attorney",
+      "name": "Denis Carvalho dos Santos Vieira",
+      "jobTitle": "Advogado especialista em Direito Médico e da Saúde",
+      "identifier": "OAB/GO 53.904",
+      "knowsAbout": ["Direito Odontológico", "Direito Médico e da Saúde", "LGPD na saúde", "Responsabilidade civil do dentista", "Defesa perante o CRO"]
+    },
+    "sameAs": [
+      "https://www.deniscarvalhoadvocacia.com.br",
+      "https://www.coberturaemsaude.com.br"
+    ]
+  }
+  </script>
+
+  <!-- ===================== Google Analytics 4 (inserir ID) =====================
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  ============================================================================= -->
 </head>
 <body>
-  <header class="site-header" data-header>
-    <a class="brand" href="#inicio" aria-label="Denis Carvalho Advocacia">
-      <img src="logo-denis.png" alt="Denis Carvalho Advocacia">
-    </a>
-    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <nav class="nav" data-nav>
-      <a href="#atuacao">Atuação</a>
-      <a href="#documentos">Documentos</a>
-      <a href="#base-legal">Base legal</a>
-      <a href="#metodo">Método</a>
-      <a href="#faq">Dúvidas</a>
-      <a href="#contato">Contato</a>
-    </nav>
+
+  <!-- ===================== TOP BAR ===================== -->
+  <div class="topbar">
+    <div class="container">
+      <div class="tb-left">
+        <span class="tb-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.39 6.96H22l-6 4.37 2.3 7.06L12 16.9l-6.3 3.49L8 13.33 2 8.96h7.61z"/></svg> OAB/GO 53.904 · Especialista em Direito Médico e da Saúde</span>
+      </div>
+      <div class="tb-center">
+        <span class="tb-item hide-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0114 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Online para todo o Brasil</span>
+      </div>
+      <div class="tb-social">
+        <a href="mailto:contato@deniscarvalhoadvocacia.com.br" class="tb-item hide-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> contato@deniscarvalhoadvocacia.com.br</a>
+        <a href="https://wa.me/5562992586422" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Advocacia Odontológica — Denis Carvalho">
+        <img src="assets/img/logo.png" alt="Denis Carvalho Advocacia — Advocacia Odontológica">
+      </a>
+      <nav aria-label="Menu principal">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#contexto">Proteção jurídica</a></li>
+          <li><a href="#documentos">Documentos</a></li>
+          <li><a href="#servicos">Atuação</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#duvidas">Dúvidas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Vim%20pelo%20site%20de%20Advocacia%20Odontol%C3%B3gica%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o."
+           target="_blank" rel="noopener" class="btn btn-gold">
+          <svg viewBox="0 0 24 24"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg>
+          <span class="btn-text">Fale no WhatsApp</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
   </header>
 
   <main>
+    <!-- ===================== HERO ===================== -->
     <section class="hero" id="inicio">
-      <div class="hero-media" aria-hidden="true">
-        <img src="denis-carvalho.jpg" alt="">
-      </div>
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Direito Odontológico para clínicas e profissionais da odontologia</p>
-        <h1>Segurança jurídica para a prática odontológica crescer com técnica, ética e previsibilidade.</h1>
-        <p class="hero-copy">
-          Atuação consultiva e contenciosa para cirurgiões-dentistas, clínicas, gestores e equipes da saúde bucal,
-          com suporte em contratos, normas do CFO/CRO, vigilância sanitária, LGPD, relação com pacientes e defesa profissional.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="https://wa.me/5562992586422?text=Olá%2C%20gostaria%20de%20atendimento%20em%20Direito%20Odontológico" target="_blank" rel="noopener">Agendar conversa</a>
-          <a class="button secondary" href="#documentos">Ver documentos essenciais</a>
-        </div>
-      </div>
-      <div class="hero-strip">
-        <span>Contratos</span>
-        <span>Ética profissional</span>
-        <span>LGPD</span>
-        <span>Vigilância sanitária</span>
-      </div>
-    </section>
-
-    <section class="intro-section" aria-labelledby="intro-title">
-      <div class="section-kicker">Uma frente especializada</div>
-      <div class="intro-grid">
-        <h2 id="intro-title">A odontologia moderna precisa de proteção jurídica antes, durante e depois do atendimento.</h2>
-        <div>
-          <p>
-            Clínicas odontológicas lidam com prontuários, imagens, planejamento terapêutico, consentimento informado,
-            publicidade profissional, relações de consumo, equipes técnicas, fornecedores, biossegurança e fiscalizações.
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Advocacia especializada no nicho odontológico</p>
+          <h1 class="hero__title">Segurança jurídica para a sua <span>prática odontológica</span></h1>
+          <p class="hero__subtitle">
+            Assessoria jurídica sob medida para cirurgiões-dentistas, clínicas e franquias —
+            termos de consentimento, contratos, LGPD e defesa profissional perante o CRO e a Justiça.
           </p>
-          <p>
-            A proposta deste atendimento é organizar essas frentes em uma estrutura jurídica clara, documentada e aderente
-            às normas aplicáveis, reduzindo riscos sem engessar a rotina clínica.
-          </p>
+          <div class="hero__actions">
+            <a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Vim%20pelo%20site%20de%20Advocacia%20Odontol%C3%B3gica%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o."
+               target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+              <svg viewBox="0 0 24 24"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg>
+              Conversar pelo WhatsApp
+            </a>
+            <a href="#ebook" class="btn btn-outline btn-lg">📘 Baixar e-book gratuito</a>
+          </div>
+          <p class="hero__note"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg> Mais de 20 anos no setor da saúde · Atendimento online para todo o Brasil</p>
+        </div>
+        <div class="hero__media">
+          <img src="assets/img/dental-hero.jpg" alt="Cirurgião-dentista analisando radiografia com paciente em consultório moderno" loading="eager" width="1040" height="800">
+          <div class="hero__badge">
+            <span class="b-ic"><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4Z"/></svg></span>
+            <span><strong>+20</strong>anos de experiência<br>em Direito da Saúde</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRUST STRIP ===================== -->
+    <div class="trust">
+      <div class="container">
+        <span><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4Z"/></svg> Atuação preventiva e contenciosa</span>
+        <span><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg> Documentos sob medida</span>
+        <span><svg viewBox="0 0 24 24"><path d="M16 11a4 4 0 1 0-8 0 4 4 0 0 0 8 0Zm-9.8 9a6 6 0 0 1 11.6 0H6.2Z"/></svg> Defesa perante o CRO</span>
+        <span><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11Zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></svg> Online para todo o Brasil</span>
+      </div>
+    </div>
+
+    <!-- ===================== CONTEXTO ===================== -->
+    <section class="section section--light" id="contexto">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Por que se proteger</span>
+          <h2 class="section__title">Por que a odontologia exige proteção jurídica específica?</h2>
+          <p class="section__lead">A odontologia está entre as áreas da saúde com maior número de ações judiciais no Brasil — e, na maioria dos casos, o que decide o processo não é a técnica empregada, mas a documentação produzida antes dele.</p>
+        </div>
+        <div class="cards-grid cards-grid--3">
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 8-4v6h2V8L12 3Zm-6 9.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-3.5l-6 3-6-3Z"/></svg>
+            <h3>Alta judicialização</h3>
+            <p>Procedimentos estéticos, ortodônticos e protéticos lidam diretamente com a expectativa do paciente. Quando o resultado percebido a frustra, a reclamação frequentemente vira ação judicial ou representação ética.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3a7 7 0 0 0 3-5.7 7 7 0 0 0-7-7Zm-2 18h4v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1Z"/></svg>
+            <h3>Obrigação de resultado</h3>
+            <p>A jurisprudência tende a tratar a obrigação do dentista como <strong>obrigação de resultado</strong>, sobretudo em estética e prótese. Isso inverte o ônus da prova: cabe ao profissional demonstrar que informou, documentou e executou corretamente.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6Zm7 1.5L18.5 9H13V3.5ZM8 12h8v2H8v-2Zm0 4h8v2H8v-2Z"/></svg>
+            <h3>A documentação é a defesa</h3>
+            <p>Prontuário completo, termos de consentimento por procedimento e contrato bem redigido formam a principal — muitas vezes a única — prova de que o paciente foi devidamente informado e anuiu aos riscos.</p>
+          </article>
+        </div>
+        <p class="section__closing">Por isso a atuação preventiva — estruturar a documentação <em>antes</em> de qualquer litígio — é o investimento jurídico mais eficiente que um cirurgião-dentista ou uma clínica pode fazer.</p>
+      </div>
+    </section>
+
+    <!-- ===================== DOCUMENTOS ESSENCIAIS ===================== -->
+    <section class="section section--navy" id="documentos">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Blindagem documental</span>
+          <h2 class="section__title">Documentos Essenciais para a sua clínica</h2>
+          <p class="section__lead">Elaborados sob medida para a realidade do seu consultório — não são modelos genéricos baixados da internet, e sim instrumentos jurídicos redigidos para resistir ao escrutínio judicial e ético.</p>
+        </div>
+        <div class="cards-grid cards-grid--3 docs-grid">
+          <article class="doc-card"><h3>TCLE — Implantodontia</h3><p>Consentimento específico para implantes, com riscos de osseointegração, enxertos e limitações do tratamento.</p></article>
+          <article class="doc-card"><h3>TCLE — Ortodontia e alinhadores</h3><p>Para tratamentos convencionais e com alinhadores, incluindo os deveres de colaboração do paciente.</p></article>
+          <article class="doc-card"><h3>TCLE — Próteses</h3><p>Próteses fixas, removíveis e totais, com expectativas realistas de adaptação, estética e durabilidade.</p></article>
+          <article class="doc-card"><h3>TCLE — Estética</h3><p>Lentes de contato dental, clareamento e harmonização — área de maior risco por frustração de expectativa.</p></article>
+          <article class="doc-card"><h3>TCLE — Cirurgias</h3><p>Sisos, enxertos ósseos e cirurgias periodontais, com riscos como parestesia e complicações pós-operatórias.</p></article>
+          <article class="doc-card"><h3>TCLE — Odontopediatria</h3><p>Com autorização do responsável legal, contenção protetiva e particularidades do atendimento infantil.</p></article>
+          <article class="doc-card"><h3>Contrato de prestação de serviços</h3><p>Objeto bem delimitado, condições de pagamento, hipóteses de rescisão e gestão de expectativas.</p></article>
+          <article class="doc-card"><h3>Termo de recusa de tratamento</h3><p>Resguarda o profissional quando o paciente recusa o tratamento indicado ou abandona o acompanhamento.</p></article>
+          <article class="doc-card"><h3>Orientações pós-operatórias</h3><p>Registro formal das orientações entregues — prova essencial quando a complicação decorre de descumprimento.</p></article>
+          <article class="doc-card"><h3>Ficha de anamnese segura</h3><p>Estruturada para registrar condições de saúde relevantes e proteger contra omissões do paciente.</p></article>
+          <article class="doc-card"><h3>Política de privacidade e LGPD</h3><p>Consentimento para tratamento de dados e uso de imagem, adequados à rotina de clínicas odontológicas.</p></article>
+          <article class="doc-card"><h3>Termo de uso de imagem</h3><p>Autorização específica para fotos de antes/depois e divulgação, em conformidade com o CFO e a LGPD.</p></article>
+        </div>
+        <div class="section__cta">
+          <a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Gostaria%20de%20orienta%C3%A7%C3%A3o%20sobre%20os%20Documentos%20Essenciais%20para%20a%20minha%20cl%C3%ADnica."
+             target="_blank" rel="noopener" class="btn btn-gold btn-lg">Solicitar orientação sobre documentos</a>
         </div>
       </div>
     </section>
 
-    <section class="services" id="atuacao" aria-labelledby="services-title">
-      <div class="section-heading">
-        <p class="section-kicker">Áreas de atuação</p>
-        <h2 id="services-title">Suporte jurídico para a rotina real da odontologia</h2>
-      </div>
-      <div class="service-grid">
-        <article class="service-card">
-          <span class="service-number">01</span>
-          <h3>Regularização de clínicas e consultórios</h3>
-          <p>Orientação em abertura, contratos societários, alvarás, vigilância sanitária, documentos internos, fluxo de atendimento e responsabilidade técnica.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">02</span>
-          <h3>Contratos odontológicos</h3>
-          <p>Instrumentos para tratamentos, ortodontia, implantes, parcerias, locação de sala, prestadores, fornecedores, laboratório e cooperação profissional.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">03</span>
-          <h3>Termos, prontuários e consentimento</h3>
-          <p>TCLE, ficha clínica, registro fotográfico, planejamento, recusa de tratamento, abandono, alta, intercorrências e guarda documental.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">04</span>
-          <h3>Defesa em CRO, CFO e processos éticos</h3>
-          <p>Atuação em notificações, sindicâncias, processos ético-disciplinares, publicidade questionada e medidas de prevenção para a equipe.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">05</span>
-          <h3>Responsabilidade civil e relação com pacientes</h3>
-          <p>Prevenção e defesa em reclamações, PROCON, ações judiciais, pedidos de reembolso, alegações de erro, insatisfação estética e inadimplência.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">06</span>
-          <h3>Publicidade odontológica e redes sociais</h3>
-          <p>Apoio para campanhas, postagens, uso de imagens, antes e depois, informativos, influenciadores, captação de pacientes e limites éticos.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">07</span>
-          <h3>LGPD e dados sensíveis de saúde</h3>
-          <p>Mapeamento de dados, bases legais, contratos com operadores, políticas de privacidade, prontuários digitais, WhatsApp e resposta a incidentes.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-number">08</span>
-          <h3>Biossegurança, resíduos e fiscalização</h3>
-          <p>Organização documental relacionada a boas práticas, gerenciamento de resíduos, rotinas internas, notificações sanitárias e autos de infração.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="documents" id="documentos" aria-labelledby="documents-title">
-      <div class="section-heading centered">
-        <p class="section-kicker">Documentos essenciais</p>
-        <h2 id="documents-title">Documentos essenciais para a sua clínica</h2>
-        <p>
-          Elaborados sob medida para a realidade do seu consultório ou clínica, não como modelos genéricos,
-          mas como instrumentos jurídicos preparados para reduzir riscos éticos, regulatórios e judiciais.
-        </p>
-      </div>
-      <div class="documents-grid">
-        <article>
-          <h3>TCLE - Implantodontia</h3>
-          <p>Termo de Consentimento Livre e Esclarecido específico para implantes, com riscos de osseointegração, enxertos e limitações do tratamento.</p>
-        </article>
-        <article>
-          <h3>TCLE - Ortodontia e alinhadores</h3>
-          <p>Consentimento para tratamentos ortodônticos convencionais e com alinhadores, incluindo deveres de colaboração do paciente.</p>
-        </article>
-        <article>
-          <h3>TCLE - Próteses</h3>
-          <p>Termo para próteses fixas, removíveis e totais, com expectativas realistas de adaptação, estética e durabilidade.</p>
-        </article>
-        <article>
-          <h3>TCLE - Procedimentos estéticos</h3>
-          <p>Lentes de contato dental, clareamento e harmonização orofacial, com atenção aos riscos de frustração de expectativa.</p>
-        </article>
-        <article>
-          <h3>TCLE - Cirurgias</h3>
-          <p>Extração de sisos, enxertos ósseos e cirurgias periodontais, com descrição de riscos como parestesia e complicações pós-operatórias.</p>
-        </article>
-        <article>
-          <h3>TCLE - Odontopediatria</h3>
-          <p>Consentimento com autorização do responsável legal, contenção protetiva quando aplicável e particularidades do atendimento infantil.</p>
-        </article>
-        <article>
-          <h3>Contrato de prestação de serviços</h3>
-          <p>Contrato odontológico com objeto bem delimitado, condições de pagamento, hipóteses de rescisão e gestão de expectativas.</p>
-        </article>
-        <article>
-          <h3>Termo de recusa de tratamento</h3>
-          <p>Documento que resguarda o profissional quando o paciente recusa o tratamento indicado ou abandona o acompanhamento.</p>
-        </article>
-        <article>
-          <h3>Orientações pós-operatórias</h3>
-          <p>Registro formal das orientações entregues ao paciente, relevante quando uma complicação decorre do descumprimento dos cuidados.</p>
-        </article>
-        <article>
-          <h3>Anamnese juridicamente segura</h3>
-          <p>Ficha estruturada para registrar condições de saúde relevantes e proteger o profissional contra omissões do paciente.</p>
-        </article>
-        <article>
-          <h3>Política de privacidade e LGPD</h3>
-          <p>Política de privacidade, consentimentos, avisos de uso de imagem e tratamento de dados adequados à rotina odontológica.</p>
-        </article>
-        <article>
-          <h3>Protocolos internos da clínica</h3>
-          <p>Fluxos de atendimento, documentação, intercorrências, prontuário, comunicação com pacientes e resposta a reclamações.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="legal-band" id="base-legal" aria-labelledby="legal-title">
-      <div class="section-heading">
-        <p class="section-kicker">Base legal e regulatória</p>
-        <h2 id="legal-title">Atuação orientada pelas normas que impactam a odontologia</h2>
-        <p>A estratégia jurídica é ajustada ao caso concreto, mas pode envolver os seguintes marcos legais e reguladores:</p>
-      </div>
-      <div class="legal-layout">
-        <div class="legal-list">
-          <div>
-            <h3>Exercício profissional e sistema CFO/CRO</h3>
-            <p>Lei 5.081/1966, Lei 4.324/1964, Decreto 68.704/1971, Lei 11.889/2008, Código de Ética Odontológica e normas complementares do Conselho Federal de Odontologia.</p>
-          </div>
-          <div>
-            <h3>Clínicas, biossegurança e vigilância sanitária</h3>
-            <p>RDC Anvisa 63/2011, RDC Anvisa 222/2018, Lei 6.437/1977, normas sanitárias locais, Plano de Gerenciamento de Resíduos e rotinas de segurança do paciente.</p>
-          </div>
-          <div>
-            <h3>Paciente, consumo e responsabilidade civil</h3>
-            <p>Código de Defesa do Consumidor, Código Civil, prontuário odontológico, dever de informação, consentimento, publicidade e prova documental.</p>
-          </div>
-          <div>
-            <h3>Dados de saúde, equipe e ambiente de trabalho</h3>
-            <p>LGPD, Marco Civil da Internet quando aplicável, NR-32, contratos com colaboradores, parceiros e operadores de dados.</p>
-          </div>
+    <!-- ===================== ÁREAS DE ATUAÇÃO ===================== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Áreas de atuação</span>
+          <h2 class="section__title">Atuação completa para o dia a dia da odontologia</h2>
+          <p class="section__lead">Da prevenção à defesa: acompanhamento jurídico nas principais demandas de cirurgiões-dentistas, clínicas e franquias.</p>
         </div>
-        <aside class="legal-note">
-          <strong>O objetivo não é apenas reagir a problemas.</strong>
-          <span>Documentos, fluxos internos e comunicação com pacientes são organizados para diminuir exposição jurídica e facilitar defesa quando houver fiscalização, denúncia ou processo.</span>
-        </aside>
-      </div>
-    </section>
-
-    <section class="method" id="metodo" aria-labelledby="method-title">
-      <div class="section-heading">
-        <p class="section-kicker">Método de trabalho</p>
-        <h2 id="method-title">Diagnóstico jurídico com visão prática da operação odontológica</h2>
-      </div>
-      <div class="timeline">
-        <article>
-          <span>1</span>
-          <h3>Levantamento</h3>
-          <p>Entendimento da clínica, especialidades, equipe, canais de atendimento, contratos, documentos e principais pontos de risco.</p>
-        </article>
-        <article>
-          <span>2</span>
-          <h3>Mapa de risco</h3>
-          <p>Classificação das pendências por urgência: ética, sanitária, contratual, LGPD, consumidor, trabalhista e contencioso.</p>
-        </article>
-        <article>
-          <span>3</span>
-          <h3>Plano de adequação</h3>
-          <p>Entrega de documentos, orientações e rotinas jurídicas para alinhar atendimento, gestão, marketing e prontuário.</p>
-        </article>
-        <article>
-          <span>4</span>
-          <h3>Acompanhamento</h3>
-          <p>Suporte em notificações, revisões periódicas, demandas de pacientes, fiscalizações, processos e atualizações regulatórias.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="profile" aria-labelledby="profile-title">
-      <div class="profile-copy">
-        <p class="section-kicker">Denis Carvalho Advocacia</p>
-        <h2 id="profile-title">Experiência jurídica em saúde aplicada ao universo odontológico.</h2>
-        <p>
-          A nova frente de Direito Odontológico complementa a atuação já consolidada em Direito da Saúde, defesa contra planos
-          de saúde, contratos, compliance, LGPD e consultoria preventiva para prestadores da área. Denis Carvalho dos Santos
-          Vieira atua como advogado inscrito na OAB/GO 53.904.
-        </p>
-        <div class="profile-links">
-          <a href="https://www.deniscarvalhoadvocacia.com.br/" target="_blank" rel="noopener">
-            <span>Site institucional</span>
-            <strong>www.deniscarvalhoadvocacia.com.br</strong>
-          </a>
-          <a href="https://www.coberturaemsaude.com.br/" target="_blank" rel="noopener">
-            <span>Cobertura em Saúde</span>
-            <strong>www.coberturaemsaude.com.br</strong>
-          </a>
+        <div class="cards-grid cards-grid--3">
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5l-8-3Zm-1.2 13.6-3.2-3.2 1.4-1.4 1.8 1.8 4.2-4.2 1.4 1.4-5.6 5.6Z"/></svg>
+            <h3>Defesa profissional</h3>
+            <p>Responsabilidade civil por alegação de erro odontológico e defesa em representações éticas no CRO, da notificação inicial ao julgamento.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-7 14H7v-2h5v2Zm5-4H7v-2h10v2Zm0-4H7V7h10v2Z"/></svg>
+            <h3>Contratos</h3>
+            <p>Contratos entre dentistas e clínicas, parcerias, franquias e credenciamento junto a planos odontológicos, com cláusulas equilibradas.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5Zm-3 5a3 3 0 1 1 6 0v3H9V6Zm3 7a2 2 0 0 1 1 3.7V19h-2v-2.3A2 2 0 0 1 12 13Z"/></svg>
+            <h3>LGPD na odontologia</h3>
+            <p>Adequação completa à Lei Geral de Proteção de Dados, DPO externo e gestão de prontuários e imagens — fotos de antes/depois exigem consentimento específico.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M18 8a4 4 0 0 0-4-4H6L3 8v8l3 4h8a4 4 0 0 0 4-4h1a3 3 0 0 0 0-6h-1V8Zm-4 10H7l-2-2.7V8.7L7 6h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2Z"/></svg>
+            <h3>Publicidade odontológica</h3>
+            <p>Divulgue seu trabalho conforme o Código de Ética e as resoluções do CFO: antes/depois, redes sociais e ofertas sem risco de infração ética.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M12 2 1 21h22L12 2Zm0 4 7.5 13h-15L12 6Zm-1 5v4h2v-4h-2Zm0 5v2h2v-2h-2Z"/></svg>
+            <h3>Compliance para clínicas</h3>
+            <p>Protocolos internos, gestão de riscos jurídicos e treinamento de equipes — da recepção à cadeira clínica — para reduzir a exposição a litígios.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 5v1.2c1.5.3 2.5 1.3 2.6 2.7h-1.8c-.1-.7-.6-1.2-1.6-1.2-1 0-1.6.5-1.6 1.1 0 .6.4.9 1.8 1.3 1.9.5 3.3 1.1 3.3 2.9 0 1.5-1.1 2.4-2.7 2.7V19h-2v-1.3c-1.6-.3-2.7-1.3-2.8-2.9h1.8c.1.9.8 1.4 1.9 1.4 1.1 0 1.7-.5 1.7-1.2 0-.7-.5-1-2-1.4-1.7-.4-3.1-1.1-3.1-2.8 0-1.4 1-2.3 2.5-2.6V7h2Z"/></svg>
+            <h3>Cobranças e inadimplência</h3>
+            <p>Recuperação de crédito de pacientes inadimplentes com segurança jurídica, preservando a reputação da clínica e os limites legais da cobrança.</p>
+          </article>
         </div>
       </div>
-      <img src="denis-carvalho.jpg" alt="Denis Carvalho, advogado">
     </section>
 
-    <section class="faq" id="faq" aria-labelledby="faq-title">
-      <div class="section-heading centered">
-        <p class="section-kicker">Perguntas e respostas</p>
-        <h2 id="faq-title">Dúvidas frequentes</h2>
-      </div>
-      <div class="faq-list">
-        <details>
-          <summary>O dentista responde por obrigação de meio ou de resultado?</summary>
-          <p>Depende do procedimento, da prova produzida e da forma como a expectativa foi apresentada ao paciente. Em muitos tratamentos há obrigação de meio, mas procedimentos com forte apelo estético podem gerar discussão sobre resultado, especialmente quando a comunicação, o contrato e o consentimento não estão bem documentados.</p>
-        </details>
-        <details>
-          <summary>O que deve constar em um termo de consentimento odontológico?</summary>
-          <p>O termo deve explicar diagnóstico, alternativas, riscos previsíveis, limitações, etapas, cuidados do paciente, possibilidade de intercorrências e autorização para registros quando houver uso de imagens. O documento precisa ser específico para o procedimento, e não apenas um formulário genérico.</p>
-        </details>
-        <details>
-          <summary>Posso publicar fotos de antes e depois nas redes sociais?</summary>
-          <p>A publicidade odontológica exige cautela. Além das normas éticas do CFO/CRO, é necessário avaliar autorização do paciente, finalidade do uso, ausência de promessa de resultado, contexto informativo e proteção de dados pessoais e de imagem.</p>
-        </details>
-        <details>
-          <summary>Fui notificado pelo CRO. O que devo fazer?</summary>
-          <p>O ideal é não responder de forma improvisada. Reúna prontuário, contratos, mensagens, fotos, termos e documentos do atendimento. A resposta deve ser técnica, objetiva e alinhada ao procedimento administrativo ou ético-disciplinar indicado na notificação.</p>
-        </details>
-        <details>
-          <summary>Minha clínica precisa se adequar à LGPD?</summary>
-          <p>Sim. Clínicas odontológicas tratam dados pessoais sensíveis de saúde. A adequação envolve mapeamento de dados, bases legais, políticas, contratos com fornecedores, controle de acesso a prontuários, uso de WhatsApp, imagens e resposta a incidentes.</p>
-        </details>
-        <details>
-          <summary>O atendimento jurídico é apenas presencial?</summary>
-          <p>Não. O atendimento pode ocorrer de forma presencial ou remota, conforme a necessidade do caso, com análise de documentos, reuniões por videoconferência e acompanhamento estratégico das providências.</p>
-        </details>
-        <details>
-          <summary>Quais documentos ajudam a proteger a clínica em uma reclamação de paciente?</summary>
-          <p>Prontuário completo, anamnese, plano de tratamento, TCLE, contrato, comprovantes de orientação, evolução clínica, imagens autorizadas, mensagens relevantes e registros de comparecimento são essenciais para demonstrar informação, técnica e acompanhamento.</p>
-        </details>
-        <details>
-          <summary>Contrato odontológico substitui o termo de consentimento?</summary>
-          <p>Não. O contrato organiza a relação comercial e as condições do serviço. O consentimento esclarece riscos, alternativas e limites clínicos do procedimento. Em muitos casos, os dois documentos devem trabalhar juntos.</p>
-        </details>
-      </div>
-    </section>
-
-    <section class="contact" id="contato" aria-labelledby="contact-title">
-      <div>
-        <p class="section-kicker">Contato</p>
-        <h2 id="contact-title">Vamos estruturar a proteção jurídica da sua clínica ou carreira odontológica.</h2>
-        <p>Envie uma mensagem para uma avaliação inicial. O atendimento pode ser direcionado para consultivo, defesa administrativa, defesa judicial ou programa de adequação jurídica.</p>
-        <div class="contact-actions">
-          <a class="button primary" href="https://wa.me/5562992586422?text=Olá%2C%20gostaria%20de%20orientação%20em%20Direito%20Odontológico" target="_blank" rel="noopener">Chamar no WhatsApp</a>
-          <a class="button secondary" href="mailto:contato@deniscarvalhoadvocacia.com.br">Enviar e-mail</a>
+    <!-- ===================== SPLIT: PREVENÇÃO ===================== -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="split">
+          <div class="split__media">
+            <img src="assets/img/dental-tools.jpg" alt="Dentista analisando documentação clínica e exames de imagem" loading="lazy">
+          </div>
+          <div class="split__content">
+            <span class="eyebrow">Atuação preventiva</span>
+            <h2 class="section__title section__title--left">Prevenir custa muito menos do que responder a um processo</h2>
+            <p class="section__lead">Estruturar a clínica antes do problema reduz drasticamente o risco de condenação e preserva a sua reputação. O trabalho preventivo começa pela revisão dos seus documentos.</p>
+            <ul class="split__list">
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span><strong>Diagnóstico jurídico</strong> dos documentos que você usa hoje.</span></li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span><strong>Termos e contratos</strong> redigidos por procedimento, não modelos genéricos.</span></li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span><strong>Adequação à LGPD</strong> compatível com a rotina da clínica.</span></li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span><strong>Treinamento da equipe</strong> para reduzir riscos no atendimento.</span></li>
+            </ul>
+            <p style="margin-top:1.6rem"><a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Quero%20fazer%20um%20diagn%C3%B3stico%20jur%C3%ADdico%20preventivo%20da%20minha%20cl%C3%ADnica."
+               target="_blank" rel="noopener" class="btn btn-navy">Quero blindar minha clínica</a></p>
+          </div>
         </div>
       </div>
-      <form class="contact-form" action="https://formsubmit.co/contato@deniscarvalhoadvocacia.com.br" method="POST">
-        <label>
-          Nome
-          <input type="text" name="nome" autocomplete="name" required>
-        </label>
-        <label>
-          E-mail
-          <input type="email" name="email" autocomplete="email" required>
-        </label>
-        <label>
-          WhatsApp
-          <input type="tel" name="whatsapp" autocomplete="tel">
-        </label>
-        <label>
-          Como podemos ajudar?
-          <textarea name="mensagem" rows="5" required></textarea>
-        </label>
-        <input type="hidden" name="_subject" value="Contato - Direito Odontológico">
-        <button class="button primary" type="submit">Enviar mensagem</button>
-      </form>
+    </section>
+
+    <!-- ===================== E-BOOK / LEAD MAGNET ===================== -->
+    <section class="section section--soft2" id="ebook">
+      <div class="container">
+        <div class="split split--reverse">
+          <div class="split__media">
+            <img src="assets/img/dental-clinic.jpg" alt="Consultório odontológico moderno e organizado" loading="lazy">
+          </div>
+          <div class="split__content">
+            <span class="eyebrow">📘 Material gratuito</span>
+            <h2 class="section__title section__title--left">Guia Jurídico do Cirurgião-Dentista</h2>
+            <p class="section__lead">Um guia prático com os <strong>10 documentos e cuidados</strong> que mais protegem o dentista de processos judiciais e éticos — escrito em linguagem acessível, direto ao ponto.</p>
+            <ul class="split__list">
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span>O que não pode faltar em um TCLE válido</span></li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span>Como publicar antes/depois sem infração ética</span></li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span>Passos para adequar a clínica à LGPD</span></li>
+            </ul>
+            <p style="margin-top:1.6rem">
+              <a href="#" data-open-lead class="btn btn-gold btn-lg">Receber o e-book gratuito</a>
+            </p>
+            <p style="font-size:.85rem;color:var(--muted);margin-top:.6rem">Envio imediato · sem custo · seus dados protegidos pela LGPD.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section class="section section--navy" id="sobre">
+      <div class="container about">
+        <div class="about__photo">
+          <img src="assets/img/denis-carvalho.jpg" alt="Denis Carvalho dos Santos Vieira, advogado especialista em Direito Médico e da Saúde" loading="lazy">
+        </div>
+        <div class="about__content">
+          <span class="eyebrow">Quem vai cuidar do seu caso</span>
+          <h2 class="section__title section__title--left">Sobre o advogado</h2>
+          <h3 class="about__name">Denis Carvalho dos Santos Vieira</h3>
+          <p class="about__oab">OAB/GO 53.904 · Especialista em Direito Médico e da Saúde</p>
+          <p>Advogado com mais de 20 anos de experiência no setor da saúde, com atuação consolidada na defesa de profissionais e instituições. A vivência prática em ambiente hospitalar proporciona uma compreensão real da rotina clínica — e das situações que, no consultório, podem se transformar em risco jurídico.</p>
+          <ul class="about__highlights">
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg> Vivência prática em ambiente hospitalar</li>
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg> Abordagem preventiva: proteger antes do litígio</li>
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg> Palestrante na área de Direito Médico</li>
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg> Autor de artigos especializados na área da saúde</li>
+          </ul>
+          <a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Gostaria%20de%20conversar%20sobre%20o%20meu%20caso%20na%20odontologia."
+             target="_blank" rel="noopener" class="btn btn-gold">Conversar com o Dr. Denis</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOG PREVIEW ===================== -->
+    <section class="section" id="blog-preview">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Blog & Notícias</span>
+          <h2 class="section__title">Conteúdo jurídico para a odontologia</h2>
+          <p class="section__lead">Artigos e novidades sobre direito odontológico, atualizados constantemente para manter você seguro e informado.</p>
+        </div>
+        <div class="posts">
+          <article class="post">
+            <a href="artigo-tcle-odontologia.html" class="thumb g1"><span class="cat">Documentação</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h4"/></svg></a>
+            <div class="body"><div class="date">16 de junho de 2026 · 6 min</div><h3>Termo de consentimento odontológico: o que não pode faltar</h3><p>O TCLE é a sua principal prova em juízo. Veja os elementos que tornam um termo realmente válido.</p><a href="artigo-tcle-odontologia.html" class="more">Ler artigo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="post">
+            <a href="artigo-defesa-cro.html" class="thumb g2"><span class="cat">Defesa Profissional</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></a>
+            <div class="body"><div class="date">09 de junho de 2026 · 5 min</div><h3>Recebeu uma notificação do CRO? Veja como agir</h3><p>O que fazer (e o que evitar) ao ser notificado pelo Conselho. A defesa técnica começa no primeiro passo.</p><a href="artigo-defesa-cro.html" class="more">Ler artigo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="post">
+            <a href="artigo-lgpd-clinica.html" class="thumb g3"><span class="cat">LGPD</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6z"/></svg></a>
+            <div class="body"><div class="date">02 de junho de 2026 · 7 min</div><h3>LGPD na clínica odontológica: o passo a passo da adequação</h3><p>Prontuários, radiografias e fotos são dados sensíveis. Saiba como adequar sua clínica e evitar multas.</p><a href="artigo-lgpd-clinica.html" class="more">Ler artigo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          </article>
+        </div>
+        <div class="section__cta"><a href="blog.html" class="btn btn-outline--navy btn-lg">Ver todos os artigos</a></div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section section--light" id="duvidas">
+      <div class="container container--narrow">
+        <div class="section__head">
+          <span class="eyebrow">Dúvidas frequentes</span>
+          <h2 class="section__title">Perguntas que todo dentista faz</h2>
+        </div>
+        <div class="faq">
+          <details class="faq__item"><summary class="faq__question">O dentista responde por obrigação de meio ou de resultado?</summary><div class="faq__answer"><p>Depende do procedimento, mas a jurisprudência frequentemente trata tratamentos estéticos e protéticos como obrigação de resultado — o que inverte o ônus da prova contra o profissional. A melhor proteção é documentar expectativas e riscos antes de iniciar o tratamento. Quer entender como isso se aplica ao seu caso? Converse conosco.</p></div></details>
+          <details class="faq__item"><summary class="faq__question">O que deve constar em um termo de consentimento odontológico?</summary><div class="faq__answer"><p>Descrição do procedimento em linguagem acessível, riscos e limitações específicos, alternativas de tratamento, deveres do paciente e registro de que houve oportunidade de esclarecer dúvidas. Termos genéricos têm pouco valor probatório — cada procedimento exige um termo próprio. Podemos avaliar os documentos que você usa hoje.</p></div></details>
+          <details class="faq__item"><summary class="faq__question">Posso publicar fotos de antes e depois nas redes sociais?</summary><div class="faq__answer"><p>O CFO passou a admitir a divulgação de imagens de antes e depois em hipóteses específicas, desde que com autorização expressa do paciente, sem promessa de resultado e respeitadas as regras éticas vigentes. O uso inadequado pode gerar processo ético e violação da LGPD. Vale uma orientação antes de publicar.</p></div></details>
+          <details class="faq__item"><summary class="faq__question">Fui notificado pelo CRO, o que devo fazer?</summary><div class="faq__answer"><p>Não responda por conta própria nem procure o paciente para "resolver informalmente" — manifestações precipitadas costumam agravar a situação. Os prazos são curtos e a defesa técnica desde o início faz diferença no resultado. Entre em contato assim que receber a notificação.</p></div></details>
+          <details class="faq__item"><summary class="faq__question">Minha clínica precisa se adequar à LGPD?</summary><div class="faq__answer"><p>Sim. Clínicas odontológicas tratam dados sensíveis de saúde diariamente — prontuários, radiografias, fotografias clínicas — e estão plenamente sujeitas à LGPD, com risco de sanções da ANPD e de ações de pacientes. A adequação pode ser feita por etapas, de forma compatível com a rotina da clínica.</p></div></details>
+          <details class="faq__item"><summary class="faq__question">O atendimento é apenas presencial?</summary><div class="faq__answer"><p>Não. O atendimento é híbrido: presencial em Mineiros-GO e online para cirurgiões-dentistas e clínicas de todo o Brasil, por videoconferência e WhatsApp, em qualquer horário e com a mesma qualidade técnica. Basta enviar uma mensagem para agendar.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA FINAL ===================== -->
+    <section class="cta-final" id="contato">
+      <div class="container container--narrow">
+        <h2 class="cta-final__title">Proteja sua carreira e sua clínica antes que o problema chegue.</h2>
+        <p class="cta-final__text">A prevenção jurídica custa menos que um processo — e preserva aquilo que você levou anos para construir.</p>
+        <a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Vim%20pelo%20site%20de%20Advocacia%20Odontol%C3%B3gica%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o."
+           target="_blank" rel="noopener" class="btn btn-whatsapp btn-xl">
+          <svg viewBox="0 0 24 24"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg>
+          Solicitar orientação pelo WhatsApp
+        </a>
+        <p class="cta-final__note">Atendimento em qualquer horário — online para todo o Brasil e presencial em Mineiros-GO</p>
+      </div>
     </section>
   </main>
 
+  <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
-    <div>
-      <img src="logo-denis.png" alt="Denis Carvalho Advocacia">
-      <p>Advocacia especializada em saúde, contratos, compliance, LGPD e defesa profissional.</p>
+    <div class="container">
+      <div class="grid">
+        <div class="f-brand">
+          <img src="assets/img/logo.png" alt="Denis Carvalho Advocacia">
+          <p>Advocacia especializada em Direito Odontológico e da Saúde. Segurança jurídica para quem cuida de sorrisos.</p>
+          <div class="f-social">
+            <a href="https://wa.me/5562992586422" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg></a>
+            <a href="mailto:contato@deniscarvalhoadvocacia.com.br" aria-label="E-mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#documentos">Documentos Essenciais</a></li>
+            <li><a href="#servicos">Áreas de Atuação</a></li>
+            <li><a href="#ebook">E-book gratuito</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#duvidas">Dúvidas</a></li>
+            <li><a href="privacidade.html">Política de Privacidade</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Outros sites</h4>
+          <ul>
+            <li><a href="https://www.deniscarvalhoadvocacia.com.br" target="_blank" rel="noopener">Denis Carvalho Advocacia</a></li>
+            <li><a href="https://www.coberturaemsaude.com.br" target="_blank" rel="noopener">Cobertura em Saúde</a></li>
+          </ul>
+        </div>
+        <div class="f-contact">
+          <h4>Contato</h4>
+          <div class="fc"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg><div><a href="https://wa.me/5562992586422" target="_blank" rel="noopener">(62) 99258-6422</a> — WhatsApp</div></div>
+          <div class="fc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><a href="mailto:contato@deniscarvalhoadvocacia.com.br">contato@deniscarvalhoadvocacia.com.br</a></div></div>
+          <div class="fc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0114 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div>Mineiros-GO · Online para todo o Brasil</div></div>
+        </div>
+      </div>
     </div>
-    <div class="footer-links">
-      <a href="mailto:contato@deniscarvalhoadvocacia.com.br">contato@deniscarvalhoadvocacia.com.br</a>
-      <a href="https://wa.me/5562992586422" target="_blank" rel="noopener">WhatsApp: (62) 99258-6422</a>
-      <a href="https://www.deniscarvalhoadvocacia.com.br/" target="_blank" rel="noopener">www.deniscarvalhoadvocacia.com.br</a>
-      <a href="https://www.coberturaemsaude.com.br/" target="_blank" rel="noopener">www.coberturaemsaude.com.br</a>
-      <span>Escritórios em: Goiânia - GO e Mineiros - GO</span>
-    </div>
-    <small>
-      Informações jurídicas de caráter geral. A análise de cada caso depende de documentos, fatos e normas locais aplicáveis.
-      Referências: Lei 5.081/1966, Lei 4.324/1964, Lei 11.889/2008, LGPD, CDC, Código Civil, normas CFO/CRO, RDC Anvisa 63/2011, RDC Anvisa 222/2018 e NR-32.
-    </small>
+    <div class="footer-bottom"><div class="container"><span>© <span class="js-year">2026</span> Denis Carvalho Advocacia · OAB/GO 53.904</span><span><a href="privacidade.html">Política de Privacidade</a></span></div></div>
+    <div class="disclaimer"><div class="container">Este site possui caráter meramente informativo, em conformidade com o Provimento nº 205/2021 do Conselho Federal da OAB. Não constitui consulta jurídica nem promessa de resultado.</div></div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/5562992586422?text=Olá%2C%20gostaria%20de%20atendimento%20em%20Direito%20Odontológico" target="_blank" rel="noopener" aria-label="Falar com Denis Carvalho pelo WhatsApp">
-    <span class="whatsapp-tooltip">Fale pelo WhatsApp</span>
-    <svg viewBox="0 0 32 32" aria-hidden="true">
-      <path d="M16.01 3.2c-7.05 0-12.78 5.73-12.78 12.78 0 2.25.59 4.45 1.72 6.38L3.12 29l6.8-1.78a12.7 12.7 0 0 0 6.09 1.55c7.05 0 12.78-5.73 12.78-12.78S23.06 3.2 16.01 3.2Zm0 23.4c-1.92 0-3.8-.52-5.43-1.5l-.39-.23-4.04 1.06 1.08-3.94-.25-.41a10.56 10.56 0 0 1-1.61-5.6c0-5.88 4.78-10.66 10.65-10.66 5.88 0 10.66 4.78 10.66 10.66S21.89 26.6 16.01 26.6Zm5.84-7.98c-.32-.16-1.9-.94-2.2-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.89-1.78-2.21-.19-.32-.02-.5.14-.66.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.74-.98-2.38-.26-.62-.52-.53-.72-.54h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.1-1.12 2.68 0 1.58 1.15 3.11 1.31 3.32.16.21 2.27 3.46 5.5 4.85.77.33 1.37.53 1.84.68.77.24 1.47.21 2.03.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z"/>
-    </svg>
-  </a>
+  <!-- ===================== LEAD CAPTURE (slide-in) ===================== -->
+  <button class="leadin__tab" id="leadinTab" aria-label="Baixar e-book gratuito">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6Zm7 1.5L18.5 9H13V3.5Z"/></svg>
+    E-book grátis
+  </button>
+  <aside class="leadin" id="leadin" aria-label="Receber e-book">
+    <div class="leadin__head">
+      <button class="leadin__close" id="leadinClose" aria-label="Fechar">×</button>
+      <span class="tag">E-book gratuito</span>
+      <h4>Guia Jurídico do Cirurgião-Dentista</h4>
+      <p>Os 10 documentos e cuidados que protegem você de processos.</p>
+    </div>
+    <div class="leadin__body">
+      <form id="leadForm" novalidate>
+        <label for="leadNome">Nome</label>
+        <input type="text" id="leadNome" name="nome" placeholder="Seu nome" required autocomplete="name">
+        <label for="leadEmail">E-mail</label>
+        <input type="email" id="leadEmail" name="email" placeholder="seu@email.com" required autocomplete="email">
+        <label for="leadFone">WhatsApp (opcional)</label>
+        <input type="text" id="leadFone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel">
+        <label class="leadin__consent"><input type="checkbox" id="leadConsent" required> Autorizo o contato e o tratamento dos meus dados conforme a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a> (LGPD).</label>
+        <button type="submit" class="btn btn-gold">Quero meu e-book 📘</button>
+      </form>
+    </div>
+  </aside>
 
-  <div class="cookie" data-cookie>
-    <p>Este site utiliza cookies essenciais e pode tratar dados enviados no formulário para retorno de contato, conforme a LGPD.</p>
-    <button type="button" data-cookie-accept>Entendi</button>
+  <!-- ===================== FLOATING BUTTONS ===================== -->
+  <div class="fab-stack">
+    <button class="fab-totop" id="toTop" aria-label="Voltar ao topo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg></button>
+    <a href="https://wa.me/5562992586422?text=%F0%9F%9A%A8%20Preciso%20de%20orienta%C3%A7%C3%A3o%20urgente%20-%20fui%20notificado%2Fprocessado%20e%20gostaria%20de%20ajuda%20agora." target="_blank" rel="noopener" class="fab fab-urgent" aria-label="Casos urgentes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><path d="M12 9v4M12 17h.01"/></svg><span class="fab-label">Fui notificado / processado</span></a>
+    <a href="https://wa.me/5562992586422?text=Ol%C3%A1%2C%20Dr.%20Denis!%20Vim%20pelo%20site%20de%20Advocacia%20Odontol%C3%B3gica%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o." target="_blank" rel="noopener" class="fab fab-whats" aria-label="Fale no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M.06 24l1.69-6.16a11.86 11.86 0 01-1.6-5.95C.16 5.32 5.5 0 12.06 0a11.8 11.8 0 018.41 3.49 11.8 11.8 0 013.48 8.41c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68.99 3.28 1.59 5.4 1.59 5.44 0 9.87-4.43 9.88-9.88a9.8 9.8 0 00-2.88-6.99A9.82 9.82 0 0012.06 2c-5.45 0-9.88 4.43-9.88 9.88 0 2.2.64 3.85 1.72 5.58l-.99 3.62 3.75-.88z"/></svg><span class="fab-label">Fale comigo no WhatsApp</span></a>
   </div>
 
-  <script src="script.js"></script>
+  <!-- ===================== TOAST ===================== -->
+  <div class="toast" id="toast"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg><span id="toastMsg"></span></div>
+
+  <!-- ===================== COOKIE BANNER ===================== -->
+  <div class="cookie" id="cookieBanner">
+    <p>Usamos cookies para melhorar sua experiência e analisar o tráfego do site. Ao continuar, você concorda com a nossa <a href="privacidade.html">Política de Privacidade</a>.</p>
+    <div class="cookie__row">
+      <button class="btn btn-gold" id="cookieAccept">Aceitar</button>
+      <button class="btn btn-ghost" id="cookieReject">Recusar</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

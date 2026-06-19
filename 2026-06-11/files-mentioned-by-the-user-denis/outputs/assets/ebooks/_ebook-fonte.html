@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: #1c2733; font-size: 12pt; line-height: 1.6; }
+  .page { width: 210mm; min-height: 297mm; padding: 22mm 20mm; position: relative; page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* Capa */
+  .cover { background: linear-gradient(160deg, #0a2240 0%, #061528 100%); color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 30mm 22mm; }
+  .cover .kicker { color: #e2c27a; letter-spacing: 3px; text-transform: uppercase; font-size: 11pt; font-weight: 700; margin-bottom: 14mm; }
+  .cover h1 { font-size: 34pt; line-height: 1.12; font-weight: 800; margin-bottom: 8mm; }
+  .cover h1 span { color: #e2c27a; }
+  .cover .sub { font-size: 14pt; color: #cdd8e6; max-width: 150mm; margin-bottom: 20mm; }
+  .cover .bar { width: 60mm; height: 3px; background: #c9a24b; margin-bottom: 8mm; }
+  .cover .author { font-size: 12pt; color: #aebccd; }
+  .cover .author strong { color: #fff; display: block; font-size: 14pt; margin-bottom: 2mm; }
+
+  h2 { color: #0a2240; font-size: 19pt; margin: 0 0 5mm; padding-bottom: 3mm; border-bottom: 2px solid #e6eaf0; }
+  h2 .num { color: #c9a24b; }
+  h3 { color: #0a2240; font-size: 13.5pt; margin: 7mm 0 2mm; }
+  p { margin-bottom: 4mm; }
+  ul { margin: 0 0 5mm 6mm; }
+  li { margin-bottom: 2.5mm; }
+  .lead { font-size: 13pt; color: #5a6776; font-style: italic; margin-bottom: 7mm; }
+  .tip { background: #f5f8fc; border-left: 4px solid #c9a24b; padding: 5mm 6mm; border-radius: 0 8px 8px 0; margin: 5mm 0; color: #0a2240; }
+  .eyebrow { color: #a8842f; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; font-size: 10pt; margin-bottom: 4mm; }
+  .doc-item { margin-bottom: 6mm; }
+  .doc-item .n { display: inline-block; width: 9mm; height: 9mm; line-height: 9mm; text-align: center; background: #0a2240; color: #e2c27a; border-radius: 50%; font-weight: 700; margin-right: 3mm; font-size: 11pt; }
+  .doc-item .t { font-weight: 700; color: #0a2240; font-size: 12.5pt; }
+  .pagefoot { position: absolute; bottom: 12mm; left: 20mm; right: 20mm; display: flex; justify-content: space-between; font-size: 9pt; color: #9aa6b4; border-top: 1px solid #e6eaf0; padding-top: 3mm; }
+
+  /* CTA final */
+  .cta { background: linear-gradient(160deg, #0a2240 0%, #061528 100%); color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 30mm 22mm; }
+  .cta h2 { color: #fff; border: none; font-size: 24pt; }
+  .cta p { color: #cdd8e6; font-size: 13pt; }
+  .cta .box { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14); border-radius: 10px; padding: 8mm; margin-top: 8mm; }
+  .cta .box .lbl { color: #e2c27a; font-weight: 700; font-size: 10pt; text-transform: uppercase; letter-spacing: 1px; }
+  .cta .box .val { font-size: 15pt; font-weight: 700; margin: 1mm 0 4mm; }
+</style>
+</head>
+<body>
+
+<!-- CAPA -->
+<div class="page cover">
+  <div class="kicker">E-book gratuito · Direito Odontológico</div>
+  <div class="bar"></div>
+  <h1>Guia Jurídico do <span>Cirurgião-Dentista</span></h1>
+  <p class="sub">Os 10 documentos e cuidados que mais protegem você de processos judiciais e éticos — explicados de forma simples e direta.</p>
+  <div class="author">
+    <strong>Denis Carvalho dos Santos Vieira</strong>
+    Advogado · OAB/GO 53.904 · Especialista em Direito Médico e da Saúde<br>
+    www.advocaciaodontologica.com.br
+  </div>
+</div>
+
+<!-- INTRO -->
+<div class="page">
+  <div class="eyebrow">Antes de começar</div>
+  <h2>Por que este guia existe</h2>
+  <p class="lead">Na odontologia, o que decide um processo quase nunca é a técnica empregada — é a documentação produzida antes dele.</p>
+  <p>A odontologia está entre as áreas da saúde com maior número de ações judiciais no Brasil. Procedimentos estéticos, ortodônticos e protéticos lidam diretamente com a expectativa do paciente e, quando o resultado percebido frustra essa expectativa, a reclamação frequentemente se converte em ação judicial ou em representação ética no Conselho.</p>
+  <p>Pior: a jurisprudência tende a tratar boa parte das obrigações do cirurgião-dentista como <strong>obrigação de resultado</strong>, o que inverte o ônus da prova. Na prática, cabe ao profissional demonstrar que informou, documentou e executou corretamente.</p>
+  <div class="tip"><strong>A boa notícia:</strong> a maior parte dos problemas graves tinha um ponto fraco evitável — um documento ausente, um prontuário incompleto ou uma publicidade irregular. Este guia mostra os 10 cuidados que fecham essas portas.</div>
+  <p>Use-o como um mapa. Não substitui orientação jurídica individualizada, mas vai te ajudar a enxergar onde a sua clínica está exposta.</p>
+  <div class="pagefoot"><span>Guia Jurídico do Cirurgião-Dentista</span><span>Denis Carvalho Advocacia</span></div>
+</div>
+
+<!-- DOCUMENTOS 1-5 -->
+<div class="page">
+  <div class="eyebrow">A blindagem documental</div>
+  <h2>Os 10 documentos e cuidados essenciais</h2>
+
+  <div class="doc-item"><span class="n">1</span><span class="t">Termo de Consentimento (TCLE) específico por procedimento</span>
+    <p>Nada de modelo genérico. Cada tratamento — implante, ortodontia, prótese, estética, cirurgia — exige um termo que descreva os riscos próprios daquele procedimento, em linguagem acessível, assinado antes de começar.</p></div>
+
+  <div class="doc-item"><span class="n">2</span><span class="t">Prontuário completo e contemporâneo</span>
+    <p>Registre tudo no momento em que acontece: anamnese, diagnóstico, plano de tratamento, evolução e intercorrências. Prontuário é a espinha dorsal da defesa — e jamais deve ser alterado depois de um problema.</p></div>
+
+  <div class="doc-item"><span class="n">3</span><span class="t">Contrato de prestação de serviços</span>
+    <p>Com objeto bem delimitado, valores, formas de pagamento, hipóteses de rescisão e gestão de expectativas. Evita conflitos sobre "o que estava incluído" e organiza a cobrança.</p></div>
+
+  <div class="doc-item"><span class="n">4</span><span class="t">Ficha de anamnese juridicamente segura</span>
+    <p>Estruturada para registrar condições de saúde relevantes e proteger o profissional contra omissões do paciente que possam impactar o tratamento.</p></div>
+
+  <div class="doc-item"><span class="n">5</span><span class="t">Termo de orientações pós-operatórias</span>
+    <p>Prova de que o paciente foi orientado sobre os cuidados após o procedimento — essencial quando a complicação decorre do descumprimento dessas orientações.</p></div>
+
+  <div class="pagefoot"><span>Guia Jurídico do Cirurgião-Dentista</span><span>Denis Carvalho Advocacia</span></div>
+</div>
+
+<!-- DOCUMENTOS 6-10 -->
+<div class="page">
+  <div class="doc-item"><span class="n">6</span><span class="t">Termo de recusa de tratamento</span>
+    <p>Resguarda o profissional quando o paciente recusa o tratamento indicado ou abandona o acompanhamento. Documente a recusa — ela também é prova.</p></div>
+
+  <div class="doc-item"><span class="n">7</span><span class="t">Termo de autorização de uso de imagem</span>
+    <p>Fotos de antes e depois só podem ser usadas com consentimento específico e destacado, sem promessa de resultado. O uso indevido gera processo ético e violação da LGPD.</p></div>
+
+  <div class="doc-item"><span class="n">8</span><span class="t">Adequação à LGPD</span>
+    <p>Prontuários, radiografias e fotos são dados sensíveis. Política de privacidade, controle de acesso e regras de uso do WhatsApp protegem a clínica de multas e ações.</p></div>
+
+  <div class="doc-item"><span class="n">9</span><span class="t">Publicidade dentro das regras do CFO</span>
+    <p>Divulgar resultados, ofertas e antes/depois exige cuidado com o Código de Ética Odontológica. Publicidade irregular é uma das causas mais comuns de representação.</p></div>
+
+  <div class="doc-item"><span class="n">10</span><span class="t">Protocolos internos e treinamento da equipe</span>
+    <p>A maioria dos incidentes começa em erro humano. Recepção, auxiliares e dentistas precisam saber o que pode e o que não pode — da guarda do prontuário ao envio de mensagens.</p></div>
+
+  <div class="tip"><strong>Regra de ouro:</strong> prevenir custa muito menos do que responder a um processo. Cada documento acima é uma porta que você fecha antes que o problema chegue.</div>
+
+  <div class="pagefoot"><span>Guia Jurídico do Cirurgião-Dentista</span><span>Denis Carvalho Advocacia</span></div>
+</div>
+
+<!-- CTA -->
+<div class="page cta">
+  <div class="kicker" style="color:#e2c27a;letter-spacing:3px;text-transform:uppercase;font-size:11pt;font-weight:700;margin-bottom:10mm">Próximo passo</div>
+  <h2>Vamos blindar a sua clínica?</h2>
+  <p>Se você quer revisar os documentos que usa hoje ou estruturar a sua proteção jurídica do zero, fale diretamente comigo. A primeira orientação é sem compromisso.</p>
+  <div class="box">
+    <div class="lbl">WhatsApp</div>
+    <div class="val">(62) 99258-6422</div>
+    <div class="lbl">E-mail</div>
+    <div class="val">contato@deniscarvalhoadvocacia.com.br</div>
+    <div class="lbl">Site</div>
+    <div class="val">www.advocaciaodontologica.com.br</div>
+  </div>
+  <p style="margin-top:10mm;font-size:10pt;color:#9fb0c4">Denis Carvalho dos Santos Vieira — OAB/GO 53.904. Material de caráter informativo, em conformidade com o Provimento nº 205/2021 do CFOAB. Não constitui consulta jurídica nem promessa de resultado.</p>
+</div>
+
+</body>
+</html>
